@@ -16,7 +16,17 @@ export default function Home() {
 
   return (
     <main>
-      <Box /* element={} description={} height={} width={} type1={} type2={} name={} moves={} */ />
+      <div className={`flex flex-wrap gap-4 justify-center`}>
+      <Box /* type1={} type2={} name={} number={} */ />
+      <Box /* type1={} type2={} name={} number={} */ />
+      <Box /* type1={} type2={} name={} number={} */ />
+      <Box /* type1={} type2={} name={} number={} */ />
+      <Box /* type1={} type2={} name={} number={} */ />
+      <Box /* type1={} type2={} name={} number={} */ />
+      <Box /* type1={} type2={} name={} number={} */ />
+      <Box /* type1={} type2={} name={} number={} */ />
+      <Box /* type1={} type2={} name={} number={} */ />
+      </div>
     </main>    
   )
 }
